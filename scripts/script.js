@@ -36,9 +36,9 @@ gsap.from("#img6", {
     },
     x: -50,
 })
-gsap.from(".text", {
-    scrollTrigger : {
-        scrub: true
-    },
-    y: 250,
-})
+// gsap.from(".text", {
+//     scrollTrigger : {
+//         scrub: true
+//     },
+//     y: 250,
+// })
