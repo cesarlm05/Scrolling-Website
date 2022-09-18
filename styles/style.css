@@ -31,15 +31,15 @@ header{
 .navigation{
     gap: 40px;
 }
-.navbar-nav .nav-link{
+.nav .navlink{
     text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    font-size: 2em;
+    padding: 5px 15px;
+    color: #112434;
+    font-size: 1.5em;
     border-radius: 20px;
 }
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active{
+.nav .navlink:hover,
+.nav .navlink.active{
     background: #112434;
     color: #fff;
 }

@@ -18,25 +18,14 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="nav" id="navigation">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link" aria-current="page" href="#navigation">Home</a>
-                      <a class="nav-link" href="#about">About</a>
-                      <a class="nav-link" href="#events">Events</a>
-                      <a class="nav-link" href="#contact">Contact</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </header>
-    </div>
+    <header id="navigation">
+        <nav class="nav">
+            <a class="navlink" href="#navigation">Home</a>
+            <a class="navlink" href="#about">About</a>
+            <a class="navlink" href="#events">Events</a>
+            <a class="navlink" href="#contact">Contact</a>
+        </nav>
+    </header>
     <section class="intro">
         <!-- <h2 class="text">Cuentos de la Crisma</h2> -->
         <img src="./assets/cuentos.jpg" id="img1" alt="banda">
@@ -93,18 +82,19 @@
     <section class="footer" id="contact">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://www.instagram.com/cuentosdelacrisma/">Instagram</a>
+                <a class="nav-link" target="_blank" href="https://www.instagram.com/cuentosdelacrisma/">Instagram</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://l.instagram.com/?u=https%3A%2F%2Fopen.spotify.com%2Fartist%2F1CHtTd26gMaaw0eCGcU2Jy%3Fsi%3DBPR3DQ9CSnW1ydoSnBw3-Q%26utm_source%3Dcopy-link&e=ATNSEu65DetDkr4jjv6DDyl4WXir5-568rbqFv3TQm8G91HH9V3ByGdI6LVXo1EGLP9amso8piPnNxiTS0qxTUFYlNAkxTUEIUWtoWU&s=1">Spotify</a>
+                <a class="nav-link" target="_blank"
+                    href="https://l.instagram.com/?u=https%3A%2F%2Fopen.spotify.com%2Fartist%2F1CHtTd26gMaaw0eCGcU2Jy%3Fsi%3DBPR3DQ9CSnW1ydoSnBw3-Q%26utm_source%3Dcopy-link&e=ATNSEu65DetDkr4jjv6DDyl4WXir5-568rbqFv3TQm8G91HH9V3ByGdI6LVXo1EGLP9amso8piPnNxiTS0qxTUFYlNAkxTUEIUWtoWU&s=1">Spotify</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Cuentos de la Crisma</a>
+                <a class="nav-link disabled">Cuentos de la Crisma</a>
             </li>
-          </ul>
+        </ul>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
