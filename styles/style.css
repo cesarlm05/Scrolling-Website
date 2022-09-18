@@ -34,6 +34,7 @@ header{
 .nav .navlink{
     text-decoration: none;
     padding: 5px 15px;
+    margin-right: 15px;
     color: #fff;
     background: #112434;
     font-size: 1.5em;
