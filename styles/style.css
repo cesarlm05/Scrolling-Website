@@ -29,22 +29,16 @@ header{
     text-decoration: none;
 }
 .navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 40px;
 }
-.navigation li{
-    list-style: none;
-}
-.navigation li a{
+.navbar-nav .nav-link{
     text-decoration: none;
     padding: 6px 15px;
     color: #112434;
     border-radius: 20px;
 }
-.navigation li a:hover,
-.navigation li a.active{
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
     background: #112434;
     color: #fff;
 }
@@ -64,22 +58,38 @@ header{
 }
 .text{
     position: absolute;
-    top: 50%;
+    top: 30%;
+    left: 50%;
     transform: translate(-50%);
-    font-size: 4em;
+    font-size: 3em;
     color: #112434;
 }
-.sec{
+.about{
     position: relative;
     padding: 100px;
     background: #112434;
 }
-.sec h2{
+.about .subtitle{
     font-size: 3em;
     color: #fff;
     margin-bottom: 15px;
 }
-.sec p{
+.about p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.events{
+    position: relative;
+    padding: 100px;
+    background: #112434;
+}
+.events .subtitle{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.events p{
     font-size: 1em;
     color: #fff;
     font-weight: 300;

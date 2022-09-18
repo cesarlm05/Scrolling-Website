@@ -38,5 +38,5 @@ gsap.from(".text", {
     scrollTrigger : {
         scrub: true
     },
-    x: 600,
+    y: 250,
 })

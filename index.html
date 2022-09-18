@@ -10,21 +10,35 @@
     <meta name="author" content="César Luis Medina">
     <link rel="import" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <title>Scrolling Website</title>
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">Logo</a>
-        <ul class="navigation">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
+    <div class="container">
+        <header class="nav" id="navigation">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="#navigation">Home</a>
+                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link" href="#events">Events</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    </div>
     <section class="intro">
-        <h2 class="text">Scrolling Website</h2>
+        <h2 class="text">Cuentos de la Crisma</h2>
         <img src="./assets/monutain_01.png" id="m1" alt="monutain">
         <img src="./assets/trees_02.png" id="t2" alt="trees">
         <img src="./assets/monutain_02.png" id="m2" alt="monutain">
@@ -32,21 +46,27 @@
         <img src="./assets/man.png" id="man" alt="man">
         <img src="./assets/plants.png" id="plants" alt="plants">
     </section>
-    <section class="sec">
-        <h2>Parallax Scrolling Website</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sit earum, fuga incidunt fugit hic repellendus,
+    <section class="about" id="about">
+        <h2 class="subtitle">Parallax Scrolling Website</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sit earum, fuga incidunt fugit hic
+            repellendus,
             veniam laboriosam atque deleniti esse quibusdam, suscipit quas commodi? Quae dolor cupiditate laudantium
             sunt!</p><br>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nemo sit, illo nam iste nulla accusamus
-            deleniti pariatur quaerat consequuntur quas repellat vel, praesentium ipsum maiores magnam id enim inventore
-            illum commodi deserunt. Laudantium repellendus suscipit alias, adipisci voluptate dolor aperiam magni eum
+            deleniti pariatur quaerat consequuntur quas repellat vel, praesentium ipsum maiores magnam id enim
+            inventore
+            illum commodi deserunt. Laudantium repellendus suscipit alias, adipisci voluptate dolor aperiam magni
+            eum
             vel dignissimos ratione exercitationem rem, consectetur vitae id assumenda ipsam reiciendis eos sint!
             Consectetur dolorum, quod ipsa eius qui eveniet non animi quidem ullam. Commodi aliquid asperiores nisi,
             voluptas similique molestiae quas odio debitis excepturi magnam, pariatur itaque hic deserunt eos animi
             soluta omnis? Eos debitis, illum est tempora ab corrupti explicabo, vitae amet sunt ut facere!
-            Exercitationem labore doloribus deleniti minus magni nisi recusandae, totam numquam consequatur quis eum,
-            iure facilis nam sit vitae nihil quos vero? Perspiciatis, enim facilis alias ex reiciendis sit. Dolor soluta
-            repellendus labore qui expedita velit, incidunt at sed nisi quisquam architecto corrupti quos consequuntur
+            Exercitationem labore doloribus deleniti minus magni nisi recusandae, totam numquam consequatur quis
+            eum,
+            iure facilis nam sit vitae nihil quos vero? Perspiciatis, enim facilis alias ex reiciendis sit. Dolor
+            soluta
+            repellendus labore qui expedita velit, incidunt at sed nisi quisquam architecto corrupti quos
+            consequuntur
             ut voluptates porro. Accusantium iste excepturi incidunt inventore fugiat veritatis possimus molestias
             voluptatibus adipisci deleniti, vitae aut odit ex, est, perspiciatis optio. Nihil ut quasi, nobis
             perspiciatis vitae error consequuntur minima ducimus, id eveniet cumque facilis sequi dolorem molestiae
@@ -54,16 +74,46 @@
             similique voluptates?</p><br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi ipsa nobis voluptatem blanditiis
             numquam repudiandae soluta tenetur? Saepe id est, officia exercitationem quis veniam enim nihil, cum,
-            tempore voluptates minus unde dolore? Cupiditate facilis perferendis corrupti. Delectus, aliquam mollitia,
+            tempore voluptates minus unde dolore? Cupiditate facilis perferendis corrupti. Delectus, aliquam
+            mollitia,
             esse exercitationem quod error quasi veniam minima nostrum magni voluptatum hic aliquid laboriosam nisi
             libero, iste accusamus deleniti maiores voluptatem animi qui explicabo? Eligendi nam soluta laborum quod
             nostrum, deserunt fuga sunt. Animi ipsam fuga perferendis nemo adipisci delectus obcaecati quidem fugiat
-            soluta itaque nesciunt aliquam veritatis, odio consequuntur hic temporibus. Mollitia, odio! Et officiis esse
+            soluta itaque nesciunt aliquam veritatis, odio consequuntur hic temporibus. Mollitia, odio! Et officiis
+            esse
             tenetur facere. Eos, enim!</p>
+    </section>
+    <section class="events" id="events">
+        <h2 class="subtitle">Events</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sit earum, fuga incidunt fugit hic
+            repellendus,
+            veniam laboriosam atque deleniti esse quibusdam, suscipit quas commodi? Quae dolor cupiditate laudantium
+            sunt!</p><br>
+    </section>
+    <section class="footer" id="contact">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/cuentosdelacrisma/">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://l.instagram.com/?u=https%3A%2F%2Fopen.spotify.com%2Fartist%2F1CHtTd26gMaaw0eCGcU2Jy%3Fsi%3DBPR3DQ9CSnW1ydoSnBw3-Q%26utm_source%3Dcopy-link&e=ATNSEu65DetDkr4jjv6DDyl4WXir5-568rbqFv3TQm8G91HH9V3ByGdI6LVXo1EGLP9amso8piPnNxiTS0qxTUFYlNAkxTUEIUWtoWU&s=1">Spotify</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Cuentos de la Crisma</a>
+            </li>
+          </ul>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
     <script src="./scripts/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
