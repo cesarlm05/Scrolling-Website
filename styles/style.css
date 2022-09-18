@@ -8,7 +8,7 @@
 }
 body{
     overflow-x: hidden;
-    background: #fff;
+    background: #112434;
     min-height: 100vh;
 }
 header{
@@ -23,7 +23,7 @@ header{
     z-index: 1000;
 }
 .logo{
-    color: #112434;
+    color: #fff;
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
@@ -34,14 +34,15 @@ header{
 .nav .navlink{
     text-decoration: none;
     padding: 5px 15px;
-    color: #112434;
+    color: #fff;
+    background: #112434;
     font-size: 1.5em;
     border-radius: 20px;
 }
 .nav .navlink:hover,
 .nav .navlink.active{
-    background: #112434;
-    color: #fff;
+    background: #fff;
+    color: #112434;
 }
 .intro{
     position: relative;
