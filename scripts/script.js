@@ -1,34 +1,36 @@
-gsap.from("#m1", {
+gsap.from("#img1", {
     scrollTrigger : {
         scrub: true
     },
     y: 100,
 })
-gsap.from("#m2", {
+gsap.from("#img3", {
     scrollTrigger : {
         scrub: true
     },
     y: 50,
 })
-gsap.from("#t2", {
+gsap.from("#img2", {
     scrollTrigger : {
         scrub: true
     },
-    x: -50,
+    x: -40,
+    y: 280,
 })
-gsap.from("#t1", {
+gsap.from("#img4", {
     scrollTrigger : {
         scrub: true
     },
     x: 50,
 })
-gsap.from("#man", {
+gsap.from("#img5", {
     scrollTrigger : {
         scrub: true
     },
     x: -210,
+    y: 300,
 })
-gsap.from("#plants", {
+gsap.from("#img6", {
     scrollTrigger : {
         scrub: true
     },
